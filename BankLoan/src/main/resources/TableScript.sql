@@ -22,12 +22,12 @@ mobile_no BIGINT(10) not null,
 loan_id INT(8) references loan(loan_id) 
 ); 
 
-insert into customer(customer_id, name, mobile_no, loan_id) values(2001,'Markel',8765476548,1001);
-insert into customer(customer_id, name, mobile_no, loan_id) values(2002,'Chris', 9696459375,1002);
-insert into customer(customer_id, name, mobile_no, loan_id) values(2003,'James', 8957216439,1003);
-insert into customer(customer_id, name, mobile_no, loan_id) values(2004,'Alex',9140814428,null);
-insert into customer(customer_id, name, mobile_no, loan_id) values(2005,'Bernard',7941123214,1004);
-insert into customer(customer_id, name, mobile_no, loan_id) values(2006,'Michel',8941123214,1005);
+insert into customer(customer_id, name, mobile_no, loan_id) values(2001,'Gautam',9123833866,1001);
+insert into customer(customer_id, name, mobile_no, loan_id) values(2002,'Bharadwaj',9163217664,1002);
+insert into customer(customer_id, name, mobile_no, loan_id) values(2003,'Rohit',9334518830,1003);
+insert into customer(customer_id, name, mobile_no, loan_id) values(2004,'Kumar',9801554349,null);
+insert into customer(customer_id, name, mobile_no, loan_id) values(2005,'Gautam Bharadwaj',9123833866,1004);
+insert into customer(customer_id, name, mobile_no, loan_id) values(2006,'Rohit Kumar',9334518830,1005);
 
 select * from customer;
 
