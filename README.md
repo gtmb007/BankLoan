@@ -25,8 +25,7 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 
 # Tomcat Server
-default server port used by tomcat is 8080
-you can provide it explicitly like- server.port=8081 in the application.properties file
+default server port used by tomcat is 8080, you can explicitly set the server port like- server.port=8081 in the application.properties file
 
 # Main Logic
 Sign Up / Sign In
