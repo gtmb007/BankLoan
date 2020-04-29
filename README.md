@@ -1,7 +1,7 @@
 # BankLoan
 BankLoan is a RESTful web service built using SpringBoot with the following functionalities: - Add customer, Get customer details based on loan type and Loan for an existing customer who has no loan.
 
-# Start project from Begining
+# Start the project from Scratch
 Go to https://start.spring.io/  generate, extract the downloaded zip file and import it into Eclipse. <br/>
 
 Your installed JDK should be at least Java8 Version and establish database connection on eclipse. <br/>
