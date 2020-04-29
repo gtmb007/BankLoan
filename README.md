@@ -2,12 +2,10 @@
 BankLoan is a RESTful web service built using SpringBoot with the following functionalities: - Add customer, Get customer details based on loan type and Loan for an existing customer who has no loan.
 
 # Start project from Begining
-Go to https://start.spring.io/  generate, extract the downloaded zip file and import it into Eclipse.
+Go to https://start.spring.io/  generate, extract the downloaded zip file and import it into Eclipse. <br/>
 
-# Setup
-Your installed JDK should be at least Java8 Version and establish database connection on eclipse.
+Your installed JDK should be at least Java8 Version and establish database connection on eclipse. <br/>
 
-# Dependency
 Go to pom.xml and add all required dependencies.
 
 # Modify these according to your database credential
@@ -43,6 +41,7 @@ GET operation with http://localhost:8080/login/CarLoan URL to get customer detai
 
 # Logging using Log4j
 I have provided logging logic in LoggingExpect.java class i.e followed the Spring AOP concept for all the methods of DAO and Service class after throwing an exception on error level. <br/>
+
 If you want to get the log details into a file then create a folder(named as logs) and add a file(error.log) into that folder and define the path of this log file in the application.properties file like- logging.file=logs/error.log
 
 # Unit Testing using JUnit5
