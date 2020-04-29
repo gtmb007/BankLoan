@@ -37,9 +37,9 @@ You will get the following functionalities:- <br/>
 # RESTful Web Service and Use of Postman
 I have provided the RESTful Web Service logic in the LoanAPI.java class and checked the logic on the Postman using the following URL:- <br/>
 POST operation with http://localhost:8080/login/ URL and put the customer details in Body section in JSON format for add customer <br/>
-POST operation http://localhost:8080/login/loan and put the customer details in Body section in JSON format to sanction loan an existing customer who has no loan <br/>
-GET operation http://localhost:8080/login/HomeLoan to get customer details having loan type HomeLoan <br/>
-GET operation http://localhost:8080/login/CarLoan to get customer details having loan type CarLoan
+POST operation with http://localhost:8080/login/loan URL and put the customer details in Body section in JSON format to sanction loan an existing customer who has no loan <br/>
+GET operation with http://localhost:8080/login/HomeLoan URL to get customer details having loan type HomeLoan <br/>
+GET operation with http://localhost:8080/login/CarLoan URL to get customer details having loan type CarLoan
 
 # Logging using Log4j
 I have provided logging logic in LoggingExpect.java class i.e followed the Spring AOP concept for all the methods of DAO and Service class after throwing an exception on error level. <br/>
