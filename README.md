@@ -13,37 +13,36 @@ Go to pom.xml and add all required dependencies.
 # Modify these according to your database credential
 Go to application.properties file
 # MYSQL settings
-spring.datasource.url=jdbc:mysql://localhost:3306/spring_project
-spring.datasource.username=root
+spring.datasource.url=jdbc:mysql://localhost:3306/spring_project <br/>
+spring.datasource.username=root <br/>
 spring.datasource.password=abcdef
 # Oracle settings
-spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe
-spring.datasource.username=system
+spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe <br/>
+spring.datasource.username=system <br/>
 spring.datasource.password=oracle
 # JPA settings
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.show-sql=true <br/>
+spring.jpa.properties.hibernate.format_sql=true <br/>
 
 # Tomcat Server
-default server port used by tomcat is 8080, you can explicitly set the server port like- server.port=8081 in the application.properties file
+Default server port used by tomcat is 8080 <br/>
+You can manually set the server port like- server.port=8081 in the application.properties file
 
 # Main Logic
-Sign Up / Sign In
-After sign in you have the following options:- 
-1.) Add customer
-2.) Get customer details based on loan type
+You will get the following functionalities:- <br/>
+1.) Add customer <br/>
+2.) Get customer details based on loan type <br/>
 3.) Loan for an existing customer who has no loan
 
 # RESTful Web Service and Use of Postman
-I have provided the RESTful Web Service logic in the LoanAPI.java class and checked the logic on the Postman using the following URL:- 
-POST operation with http://localhost:8080/login/ URL and put the customer details in Body section in JSON format for add customer
-POST operation http://localhost:8080/login/loan and put the customer details in Body section in JSON format to sanction loan an existing customer who has no loan
-GET operation http://localhost:8080/login/HomeLoan to get customer details having loan type HomeLoan
+I have provided the RESTful Web Service logic in the LoanAPI.java class and checked the logic on the Postman using the following URL:- <br/>
+POST operation with http://localhost:8080/login/ URL and put the customer details in Body section in JSON format for add customer <br/>
+POST operation http://localhost:8080/login/loan and put the customer details in Body section in JSON format to sanction loan an existing customer who has no loan <br/>
+GET operation http://localhost:8080/login/HomeLoan to get customer details having loan type HomeLoan <br/>
 GET operation http://localhost:8080/login/CarLoan to get customer details having loan type CarLoan
 
 # Logging using Log4j
-I have provided logging logic in LoggingExpect.java class i.e followed the Spring AOP concept for all the methods of DAO and Service class after throwing an exception on error level.
-
+I have provided logging logic in LoggingExpect.java class i.e followed the Spring AOP concept for all the methods of DAO and Service class after throwing an exception on error level. <br/>
 If you want to get the log details into a file then create a folder(named as logs) and add a file(error.log) into that folder and define the path of this log file in the application.properties file like- logging.file=logs/error.log
 
 # Unit Testing using JUnit5
