@@ -37,7 +37,7 @@ I have provided the RESTful Web Service logic in the LoanAPI.java class and chec
 
 POST operation with http://localhost:8080/login/ URL and put the JSON format of customer details in the Body section to add customer. <br/>
 
-POST operation with http://localhost:8080/login/loan URL and put the JSON format of customer details in the Body section to sanction loan an existing customer who has no loan. <br/>
+POST operation with http://localhost:8080/login/loan URL and put the JSON format of customer details in the Body section to sanction loan of an existing customer who has no loan. <br/>
 
 GET operation with http://localhost:8080/login/HomeLoan URL to get customer details having loan type HomeLoan. <br/>
 
