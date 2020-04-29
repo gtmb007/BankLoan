@@ -12,19 +12,19 @@ Go to pom.xml and add all required dependencies.
 
 # Modify these according to your database credential
 Go to application.properties file
-# MYSQL settings
+###### MYSQL settings
 spring.datasource.url=jdbc:mysql://localhost:3306/spring_project <br/>
 spring.datasource.username=root <br/>
 spring.datasource.password=abcdef
-# Oracle settings
+###### Oracle settings
 spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe <br/>
 spring.datasource.username=system <br/>
 spring.datasource.password=oracle
-# JPA settings
+###### JPA settings
 spring.jpa.show-sql=true <br/>
 spring.jpa.properties.hibernate.format_sql=true <br/>
 
-# Tomcat Server
+###### Tomcat Server
 Default server port used by tomcat is 8080 <br/>
 You can manually set the server port like- server.port=8081 in the application.properties file
 
